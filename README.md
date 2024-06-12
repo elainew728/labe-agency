@@ -1,7 +1,7 @@
 # White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency
 *Yixin Wan, Kai-Wei Chang*
 
-The official code repository for the **NAACL 2024 TrustNLP BEST Paper** (non-archival track): White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency
+The official code repository for the **NAACL 2024 TrustNLP Best Paper** (non-archival track): White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency
 
 ### Language Agency Classification (LAC) Dataset Construction
 We provide the code for generating the raw dataset, and the final version of the cleaned, labeled, and splitted LAC dataset for training LAC classifiers.
