@@ -9,7 +9,7 @@ We provide the code for generating the raw dataset, and the final version of the
 ```
 cd lac_dataset_construction
 ```
-* Then, add in your OpenAI account configurations in ```generation_util.py``` and run:
+* Then, add in your OpenAI account configurations in ```./lac_dataset_construction/generation_util.py``` and run:
 ```
 python generate_dataset.py
 ```
@@ -23,6 +23,7 @@ sh ./scripts/run_train_bert.sh
 Alternatively, download model checkpoints from the Google Drive link and store them in the ```labe-agency/checkpoints/``` folder.
 
 ### Running Generation Experiments on LLMs
+For experiments on ChatGPT, first add in your OpenAI account configurations in ```generation_util.py```.
 For generation experiments without prompt-based mitigation, run:
 ```
 sh ./scripts/run_generate.sh
