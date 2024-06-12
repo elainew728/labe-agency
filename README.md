@@ -4,7 +4,8 @@
 The official code repository for the **NAACL 2024 TrustNLP Best Paper** (non-archival track): [White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency](https://arxiv.org/abs/2404.10508)
 
 ### Language Agency Classification (LAC) Dataset Construction
-We provide the code for generating the raw dataset, and the final version of the cleaned, labeled, and splitted LAC dataset for training LAC classifiers.
+We provide the code for generating the raw dataset.
+Alternatively, in the folder ```./lac_dataset_construction/lac_dataset```, we provide the final version of the cleaned, labeled, and split LAC dataset that you can directly use for training LAC classifiers.
 * To run data generation, first go to the folder for generation scripts:
 ```
 cd lac_dataset_construction
