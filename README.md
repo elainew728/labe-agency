@@ -9,3 +9,7 @@ We provide the code for generating the raw dataset, and the final version of the
 ```
 cd lac_dataset_construction
 ```
+* Then, add in your OpenAI account configurations in ```generation_util.py``` and run:
+```
+python generate_dataset.py
+```
