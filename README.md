@@ -21,7 +21,7 @@ To train a BERT-based LAC classifier from scratch, first return to the main ```l
 sh ./scripts/run_train_bert.sh
 ```
 
-Alternatively, download model checkpoints from the Google Drive link and store them in the ```labe-agency/checkpoints/``` folder.
+Alternatively, download model checkpoints from [this Google Drive link](https://drive.google.com/drive/folders/1W1C4al2qGsqVA5ulxt4Hpu6IvuRoZRj-?usp=sharing) and store all checkpoint subfolders (e.g. ```bert-base-cased_binary_*_*```) in the ```labe-agency/checkpoints/``` folder.
 
 ### Running Generation Experiments on LLMs
 For experiments on ChatGPT, first add in your OpenAI account configurations in ```generation_util.py```.
