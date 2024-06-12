@@ -1,0 +1,9 @@
+python generate_clg.py -g bio -m mistral
+python generate_clg.py -g prof -m mistral
+python generate_clg.py -g rec -m mistral
+python generate_clg.py -g bio -m chatgpt
+python generate_clg.py -g prof -m chatgpt
+python generate_clg.py -g rec -m chatgpt
+python generate_clg.py -g bio -m llama3
+python generate_clg.py -g prof -m llama3
+python generate_clg.py -g rec -m llama3
