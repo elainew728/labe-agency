@@ -1,0 +1,29 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "LABE",
+    "description": "LABE is a benchmark for evaluating language agency-related social biases in LLM-generations. The benchmark consists of (1) a Language Agency Classification (LAC) dataset with train, test, validation splits, and (2) a collection of template and descriptor-based prompts to query LLMs for different text generation tasks. For more information, please refer to our GitHub page.",
+    "url": "https://github.com/elainew728/labe-agency",
+    "keywords": ["bias", "fairness", "language-agency", "text-generation", "llm"],
+    "license": "https://opensource.org/license/MIT",
+    "datePublished": "2024-06-12",
+    "isAccessibleForFree": true,
+    "creator": [
+      {
+        "@type": "Person",
+        "name": "Yixin Wan",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Department of Computer Science, University of California, Los Angeles"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Kai-Wei Chang",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Department of Computer Science, University of California, Los Angeles"
+        }
+      }
+    ]
+  }
